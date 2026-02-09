@@ -48,7 +48,7 @@ node -v
 npm -v
 mysql --version
 git --version
-
+```
 ## How to Run the Application
 
 ### Backend (Spring Boot)
