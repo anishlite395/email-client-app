@@ -58,3 +58,8 @@ git --version
 ```bash
 git clone https://github.com/anishlite395/email-client-app.git
 cd email-client-app/backend
+```
+2. **Configure the Database**
+   ```
+   CREATE DATABASE email_client;
+  ```
