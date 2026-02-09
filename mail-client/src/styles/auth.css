@@ -1,0 +1,95 @@
+/* auth.css */
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body,#root {
+  margin: 0;
+  height: 100%;
+  background: #f6f8fb;
+}
+
+/* Full page center */
+.auth {
+  min-height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #f6f8fb, #eef2ff);
+}
+
+/* Card */
+.auth-card {
+  width: 360px;
+  background: #ffffff;
+  padding: 32px 28px;
+  border-radius: 18px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+/* Title */
+.auth-card h2 {
+  margin-bottom: 22px;
+  font-size: 24px;
+  color: #1f2937;
+}
+
+/* Inputs */
+.auth-card input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  font-size: 14px;
+  outline: none;
+  background: #ffffff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.auth-card input:focus {
+  border-color: #5b6cff;
+  box-shadow: 0 0 0 3px rgba(91, 108, 255, 0.15);
+}
+
+/* Button */
+.auth-card button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  background: linear-gradient(135deg, #5b6cff, #7c8cff);
+  color: white;
+  border: none;
+  border-radius: 14px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.auth-card button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 30px rgba(91, 108, 255, 0.35);
+}
+
+/* Switch link */
+.auth-card p {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #5b6cff;
+  cursor: pointer;
+}
+
+.auth-card p:hover {
+  text-decoration: underline;
+}
+
+/* Mobile */
+@media (max-width: 420px) {
+  .auth-card {
+    width: 90%;
+  }
+}

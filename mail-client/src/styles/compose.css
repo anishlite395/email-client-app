@@ -1,0 +1,78 @@
+.compose{
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.compose input[type="text"],.compose textarea,.compose input[type="datetime-local"]{
+    width: 100%;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-size: 15px;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+
+.compose textarea{
+    min-height: 200px;
+    resize: vertical;
+}
+
+.compose input::placeholder,.compose textarea::placeholder{
+    color: #9ca3af;
+}
+
+.compose input:focus,.compose textarea:focus{
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37,99,235,0.15);
+}
+
+.compose input[type="file"]{
+    border: none;
+    font-size: 14px;
+    color: #374151;
+}
+
+.compose input[type="datetime-local"]{
+    max-width: 500px;
+}
+
+.compose button{
+ padding: 10px 18px;   
+ border-radius: 6px;
+ font-size: 14px;
+ font-weight: 500;
+ border: none;
+ cursor: pointer;
+ transition: background 0.2s, transform 0.1s;
+}
+
+.compose button:first-of-type{
+    background-color: #2563eb;
+    color: #fff;
+}
+
+.compose button:first-of-type:hover{
+    background-color: #1d4ed8;
+}
+
+.compose button:last-of-type{
+ background-color: #e5e7eb;
+ color: #374151;
+ margin-left: 4px;   
+}
+
+.compose button:last-of-type:hover{
+    background-color: #d1d5db;
+}
+
+.compose button:active{
+    transform: scale(0.98);
+}
