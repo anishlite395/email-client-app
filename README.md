@@ -1,27 +1,50 @@
 # Email Client Application
 
-A full-featured Email Client Application built using **Java**, **Spring Boot**, **Hibernate**, and **React.js**. This project allows users to send, receive, and manage emails efficiently with a secure and user-friendly interface.
+Email Client Application built using Java, Spring Boot, and React.js.  
+This application allows users to securely send, receive, and manage emails using SMTP and IMAP with JWT-based authentication.
 
-## Features
+---
 
-- User registration and authentication with **Spring Security**.
-- Compose, send, and receive emails.
-- Inbox, Sent, and Draft folder management.
-- Email search and filtering.
-- File attachments support.
-- Responsive and intuitive UI built with **React.js**.
-- RESTful APIs for communication between frontend and backend.
-- Secure password storage with **Bouncy Castle encryption**.
+## Technologies Used
 
-## Tech Stack
+Backend:
+- Java 8 / 11
+- Spring Boot
+- Spring Security
+- Spring Data JPA (Hibernate)
+- JavaMail (SMTP & IMAP)
+- MySQL
 
-- **Backend:** Java 11, Spring Boot, Spring Security, Hibernate, REST APIs  
-- **Frontend:** React.js, HTML, CSS, Bootstrap  
-- **Database:** MySQL / Oracle SQL  
-- **Tools & Platforms:** Git, GitHub, Postman, Eclipse IDE, Visual Studio Code  
+Frontend:
+- React.js
+- HTML, CSS, Bootstrap
+- JavaScript
 
-## Installation
+Tools:
+- Git, GitHub
+- Maven
+- Node.js, npm
+- Postman
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/email-client-application.git
+---
+
+## Project Structure
+
+email-client-app  
+├── backend  
+├── frontend  
+└── README.md  
+
+---
+
+## Prerequisites
+
+Make sure the following are installed:
+
+```bash
+java -version
+mvn -version
+node -v
+npm -v
+mysql --version
+git --version
