@@ -48,3 +48,13 @@ node -v
 npm -v
 mysql --version
 git --version
+
+## How to Run the Application
+
+### Backend (Spring Boot)
+
+1. **Clone the repository and navigate to backend**
+
+```bash
+git clone https://github.com/anishlite395/email-client-app.git
+cd email-client-app/backend
