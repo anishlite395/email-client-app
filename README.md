@@ -73,10 +73,10 @@ cd email-client-app/backend
    ```
 3.**Configure hMailServer**
 Install and start hMailServer
-   Create a domain (e.g., example.com)
-   Add email accounts under the domain
-   Update application.properties with admin credentials:
-         ```
-            hmail.admin.username=Administrator
-            hmail.admin.password=your_admin_password
-         ```
+  - Create a domain (e.g., example.com)
+  - Add email accounts under the domain
+  - Update application.properties with admin credentials:
+    ```
+       hmail.admin.username=Administrator
+       hmail.admin.password=your_admin_password
+    ```
