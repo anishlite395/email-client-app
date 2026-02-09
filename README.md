@@ -60,6 +60,15 @@ git clone https://github.com/anishlite395/email-client-app.git
 cd email-client-app/backend
 ```
 2. **Configure the Database**
+   Create a MySQL database:
    ```
    CREATE DATABASE email_client;
-  ```
+   ```
+   Update application.properties with your database credentials:
+   ```
+      spring.datasource.url=jdbc:mysql://localhost:3306/email_client
+      spring.datasource.username=root
+      spring.datasource.password=your_password
+      spring.jpa.hibernate.ddl-auto=update
+   ```
+
