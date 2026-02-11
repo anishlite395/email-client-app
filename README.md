@@ -85,3 +85,5 @@ cd email-client-app/backend
       mvn clean install
       mvn spring-boot:run
    ```
+### Frontend (React Application)
+
