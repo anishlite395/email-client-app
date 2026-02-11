@@ -86,4 +86,8 @@ cd email-client-app/backend
       mvn spring-boot:run
    ```
 ### Frontend (React Application)
-
+1.**Run React Application**
+   ```
+      cd mail-client
+      npm run dev
+   ```
