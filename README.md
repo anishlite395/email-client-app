@@ -85,6 +85,10 @@ cd email-client-app/backend
       mvn clean install
       mvn spring-boot:run
    ```
+5.**The Spring boot Application will run on Port 8080**
+   ```
+      localhost:8080
+   ```
 ### Frontend (React Application)
 1.**Run React Application**
    ```
