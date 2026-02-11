@@ -91,3 +91,7 @@ cd email-client-app/backend
       cd mail-client
       npm run dev
    ```
+2.**Open the Application in browser**
+   ```
+   localhost:5173
+   ```
